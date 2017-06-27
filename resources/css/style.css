@@ -1,0 +1,119 @@
+body {
+  border: 0;
+  margin: 0;
+  font-family: 'helvetica', sans-serif;
+  background-color: black;
+  font-size: 22px;
+  color:seashell;
+  opacity: 0.9;
+
+}
+
+.header{
+  display: inline-flex;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    justify-content:space-between;
+    padding: 15px;
+    border-bottom: 1px solid seashell;
+}
+
+.header a{
+  color: white;
+  display:inline;
+  margin-right: 30px;
+}
+
+.header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+#jumbotron{
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+}
+
+.main-container{
+  width: 1200px;
+  margin: 0 auto;
+  height: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: inline-flex;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content{
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#Month {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.photo img{
+  width: 300px;
+  height: 200px;
+  margin: 15px 10px;
+}
+
+.photo span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+#locations{
+  margin: 60px auto;
+  display: block;
+  justify-content:center;
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+#locations h2{
+    padding-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.container-locations{
+  display: inline-flex;
+}
+
+.location{
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 40px;
+  text-align: center;
+}
+
+footer{
+  height: 200px;
+  text-align: center;
+}
+
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+}
